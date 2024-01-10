@@ -13,7 +13,7 @@
             --custom-grey: #6A6A6A;
             --custom-black: #0E0E0E;
             --custom-white: white;
-            --custom-font: "DejaVu Sans", sans-serif;
+            --custom-font: "Ubuntu", "Nimbus Sans", "Helvetica", sans-serif;
         }
         body {
             display: flex;
@@ -21,12 +21,14 @@
             align-items: center;
             margin: 0;
             background-color: black;
+            font-family: var(--custom-font);
+            color: var(--custom-white);
         }
         .main_container {
-            display: inline-flex;
+            display: flex;
             flex-direction: column;
-            background-color: white;
-            padding: 3rem;
+            background-color: var(--custom-black);
+            /* padding: 3rem; */
             margin: auto 15%;
             max-width: 40em;
             min-width: 30em;
@@ -36,10 +38,11 @@
             justify-content: center;
             align-items: center;
         }
-        /* .container_content {
-            display: flex;
-            flex-direction: column;
-        } */
+        .container_content {
+            /* display: flex;
+            flex-direction: column; */
+            padding: 3rem;
+        }
         .container_footer p {
             text-align: center;
         }
@@ -53,9 +56,24 @@
         }
         h1, h2, h3 {
             margin: 0;
+            color: var(--custom-green);
+            font-size: 1.4rem;
+
         }
         p {
             margin: 0;
+            color: var(--custom-white);
+        }
+        .highlight {
+            color: var(--custom-green2);
+        }
+        a{
+            color: var(--custom-blue);
+        }
+        hr {
+            width: 100%;
+            border: solid var(--custom-grey);
+            border-radius: 5px;
         }
     </style>    
 </head>
@@ -100,7 +118,7 @@
                 Quaerat laudantium, ad modi vero necessitatibus molestias a. Recusandae dolor facere modi cupiditate molestias obcaecati. Beatae rem dolorum optio maiores eligendi eum?
             </p>
             <h1>2.2 Something something?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quaerat laudantium, ad modi vero necessitatibus molestias a. Recusandae dolor facere modi cupiditate molestias obcaecati. Beatae rem dolorum optio maiores eligendi eum?
             </p>
             <!-- - -->
