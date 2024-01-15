@@ -1,7 +1,4 @@
-const githubLink = document.getElementById('github')
+const canvas = document.querySelector('canvas')
+const context = canvas.getContext('2D')
 
-githubLink.addEventListener('click', myFunction)
-
-function myFunction() {
-    console.log('github link was clicked')
-}
+canvas.style.background = 'black'
