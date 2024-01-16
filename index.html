@@ -83,11 +83,14 @@
         a{
             color: var(--custom-new-blue);
         }
-        a:not(.avatar_profile>a):hover {
+        a:not(.avatar_profile>a, .ossu_link):hover {
             background-color: var(--custom-new-blue);
             color: var(--custom-new-white);
             border-radius: 5px;
             padding: 5px;
+        }
+        .ossu_link {
+            text-decoration: none;
         }
         ul {
             list-style-type: none;
@@ -117,7 +120,11 @@
             <!-- - -->
             <div class="avatar_profile"><a href="./ozen_the_inmovable.jpg"><img src="./ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
             <h1><a href="./index.html">Atl97585 home page</a></h1>
-            <p>Computer Science student (OSSU)<br>Data Science student<br>Game Developer as a weekend hobby</p>
+            <p>
+                Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
+                Data Science student<br>
+                Game Developer as a weekend hobby
+            </p>
 
             <!-- <canvas id="container_canvas" style="width: 100%; height: auto;"></canvas> -->
 
