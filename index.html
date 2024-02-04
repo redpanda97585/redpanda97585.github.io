@@ -8,18 +8,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
         :root {
-            
-            --custom-green: #8BEF5E;
-            --custom-dark-blue: #1F2544;
-            --custom-blue: #474F7A;
-            --custom-purple: #81689D;
-            --custom-pink: #FFD0EC;
+            --custom-new-black: #000000;
+            --custom-new-blue: #0B60B0;
+            --custom-new-light-blue: #40A2D8;
+            --custom-new-light-yellow: #F0EDCF;
             --custom-font: "Ubuntu", "Nimbus Sans", "Helvetica", sans-serif;
-
-            --custom-new-blue: #161A30;
-            --custom-new-purple: #31304D;
-            --custom-new-grey: #B6BBC4;
-            --custom-new-white: #F0ECE5;
             --custom-new-font:  "Titillium Web", sans-serif;
         }
         body {
@@ -27,9 +20,9 @@
             justify-content: center;
             align-items: center;
             margin: 0;
-            background-color: var(--custom-dark-blue);
+            background-color: var(--custom-new-light-blue);
             font-family: var(--custom-new-font);
-            color: var(--custom-green);
+            color: var(--custom-new-black);
         }
         .main_container {
             display: flex;
@@ -42,14 +35,14 @@
         .general_container {
             display: flex;
             flex-direction: column;
-            background-color: var(--custom-dark-blue);
+            background-color: var(--custom-new-light-yellow);
             /* padding: 3rem; */
-            /* margin: 2em 15%; */
+            margin: 2em 15%;
             padding: .5%;
             max-width: 40em;
             min-width: 30em;
             border-radius: 25px;
-            border: solid var(--custom-green);
+            border: solid var(--custom-new-blue);
         }
         .container_header {
             display: flex;
@@ -83,13 +76,14 @@
             margin: 0;
         }
         .highlight {
-            color: var(--custom-new-purple);
+            color: var(--custom-new-blue);
         }
         a{
-            color: var(--custom-green);
+            color: var(--custom-new-blue);
         }
         a:not(.avatar_profile>a, .ossu_link):hover {
-            background-color: var(--custom-blue);
+            background-color: var(--custom-new-blue);
+            color: var(--custom-new-light-yellow);
             border-radius: 5px;
             padding: 5px;
         }
@@ -103,54 +97,46 @@
         }
         hr {
             width: 85%;
-            border: solid var(--custom-dark-blue);
+            border: solid var(--custom-new-blue);
             border-radius: 5px;
         }
     </style>    
 </head>
 <body>
-    <div class="main_container">
-        <div class="general_container">
-            <!-- - -->
-            <div class="container_header">
-                <h2><a href="">Main</a></h2>
-                .
-                <h2><a href="">Projects</a></h2>
-                . 
-                <h2><a href="">Contact</a></h2>
-            </div>
-            <hr>
-            <!-- - -->
-            <div class="container_content">
-                <!-- - -->
-                <div class="avatar_profile"><a href="./images/ozen_the_inmovable.jpg"><img src="./images/ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
-                <h1><a href="./index.html">Atl97585 home page</a></h1>
-                <p>
-                    Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
-                    Data Science student<br>
-                    Game Developer as a weekend hobby
-                </p>
-                <h1>Contact</h1>
-                <ul>
-                    <li><a href="https://github.com/atl97853" target="_blank">github</a></li>
-                    <li><a href="https://www.duolingo.com/profile/redpanda97585" target="_blank">duolingo</a></li>
-                    <li><a href="https://www.instagram.com/deadname99_/" target="_blank">instagram personal</a></li>
-                    <li><a href="https://www.youtube.com/@deadname99_43" target="_blank">youtube personal</a></li>
-                </ul>
-            </div>
-            <hr>
-            <!-- - -->
-            <div class="container_footer">
-                <p>
-                    "The journey of a thousand miles begins with a single step" <br>- Lao Tzu
-                </p>
-            </div>
+    <div class="general_container">
+        <!-- - -->
+        <div class="container_header">
+            <h2><a href="">Main</a></h2>
+            .
+            <h2><a href="">Projects</a></h2>
+            . 
+            <h2><a href="">Contact</a></h2>
         </div>
-        <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . . </div>
-        <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . .</div>
-        <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . . </div>
-        <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . .</div>
-        <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . . </div>
-    </div>
+        <hr>
+        <!-- - -->
+        <div class="container_content">
+            <!-- - -->
+            <div class="avatar_profile"><a href="./images/ozen_the_inmovable.jpg"><img src="./images/ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
+            <h1><a href="./index.html">Atl97585 home page</a></h1>
+            <p>
+                Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
+                Data Science student<br>
+                Game Developer as a weekend hobby
+            </p>
+            <h1>Contact</h1>
+            <ul>
+                <li><a href="https://github.com/atl97853" target="_blank">github</a></li>
+                <li><a href="https://www.duolingo.com/profile/redpanda97585" target="_blank">duolingo</a></li>
+                <li><a href="https://www.instagram.com/deadname99_/" target="_blank">instagram personal</a></li>
+                <li><a href="https://www.youtube.com/@deadname99_43" target="_blank">youtube personal</a></li>
+            </ul>
+        </div>
+        <hr>
+        <!-- - -->
+        <div class="container_footer">
+            <p>
+                "The journey of a thousand miles begins with a single step" <br>- Lao Tzu
+            </p>
+        </div>
 </body>
 </html>
