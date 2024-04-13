@@ -6,23 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atl97585</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-        :root {
-            --custom-new-black: white;
-            --custom-new-blue: white;
-            --custom-new-light-blue: black;
-            --custom-new-light-yellow: black;
-            --custom-font: "Ubuntu", "Nimbus Sans", "Helvetica", sans-serif;
-            --custom-new-font:  "Titillium Web", sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
         }
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0;
-            background-color: var(--custom-new-light-blue);
-            font-family: var(--custom-new-font);
-            color: var(--custom-new-black);
+            background-color: black;
+            /* font-family: var(--custom-new-font); */
+            color: white;
         }
         .main_container {
             display: flex;
@@ -35,30 +30,30 @@
         .general_container {
             display: flex;
             flex-direction: column;
-            background-color: var(--custom-new-light-yellow);
+            /* background-color: var(--custom-new-light-yellow); */
             /* padding: 3rem; */
             margin: 2em 15%;
             padding: .5%;
             max-width: 40em;
             min-width: 30em;
-            border-radius: 25px;
-            border: solid var(--custom-new-blue);
+            /* border-radius: 25px;
+            border: solid white; */
         }
         .container_header {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .container_content {
-            /* display: flex;
-            flex-direction: column; */
+        /* .container_content {
+            display: flex;
+            flex-direction: column;
             padding: .5%;
-        }
-        .container_footer{
+        } */
+        /* .container_footer{
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+        } */
         .avatar_profile {
             display: inline;
             float: right;
@@ -68,22 +63,20 @@
             height: auto;
         }
         h1, h2, h3 {
-            margin: 0;
             font-size: 1.4rem;
-
         }
-        p {
+        /* p {
             margin: 0;
-        }
-        .highlight {
+        } */
+        /* .highlight {
             color: var(--custom-new-blue);
-        }
+        } */
         a{
-            color: var(--custom-new-blue);
+            color: white;
         }
         a:not(.avatar_profile>a, .ossu_link):hover {
-            background-color: var(--custom-new-blue);
-            color: var(--custom-new-light-yellow);
+            /* background-color: var(--custom-new-blue); */
+            /* color: var(--custom-new-light-yellow); */
             border-radius: 5px;
             padding: 5px;
         }
@@ -92,14 +85,12 @@
         }
         ul {
             list-style-type: none;
-            margin: 0;
-            padding: 0;
         }
-        hr {
+        /* hr {
             width: 85%;
             border: solid var(--custom-new-blue);
             border-radius: 5px;
-        }
+        } */
     </style>    
 </head>
 <body>
@@ -109,6 +100,7 @@
             <!-- - -->
             <div class="avatar_profile"><a href="./images/ozen_the_inmovable.jpg"><img src="./images/ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
             <h1><a href="./index.html">Atl97585 home page</a></h1>
+            <a href="./blog.html" target="_blank">Blog</a></h1>
             <p>
                 Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
                 Data Science student<br>
