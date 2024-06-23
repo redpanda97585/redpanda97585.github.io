@@ -8,8 +8,8 @@ body {
     /* align-items: center; */
     justify-content: center;
     gap: 10%;
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 /* .main-container {
@@ -29,8 +29,8 @@ body {
     float: left;
 } */
 
-.description > p > a {
-    color: black;
+.description > p > a, a {
+    color: white;
     text-decoration: none;
 }
 
