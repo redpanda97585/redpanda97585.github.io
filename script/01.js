@@ -9,7 +9,7 @@ let bodyElement = document.body;
 let mainContainer = document.querySelector(".main-container");
 let mode = false;
 
-csPer.textContent = csTotal.toString() + "%";
+csPer.innerHTML = csTotal.toString() + "%";
 
 document.querySelector(".style-button").onclick = function () {
     if (mode === false) {
