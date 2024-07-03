@@ -11,13 +11,11 @@
             padding: 0;
             font-family: "Comic Neue", cursive;
         }
-        body {
-            background-color: black;
-            color: white;
-        }
-        .main-container {
-            display: flex;
-            flex-direction: row;
+        /* body {
+        } */
+        .main-container { 
+            /* display: flex;
+            flex-direction: row; */
         }
         .title {
             margin-top: 20px; 
@@ -31,33 +29,46 @@
         .entries {
             margin-top: 20px;
             margin-left: 20px;
+            border: solid black 1px;
+            padding: .5%;
+            display: inline-block;
+        }
+        .entries > .entry-date {
+            display: inline;
+            background-color: black;
+            color: white;
+        }
+        .style-button {
+            display: inline-block;
         }
     </style>
 </head>
 <body>
     <div class="title">
         <h1>Hi this is my blog</h1>
+        <button class="style-button">k</button>
     </div>
     <div class="description">
         <p>
-            The idea of this blog is to write about myself, 
-            <br>but mainly focused on my progress studying computer science,  
-            <br>data science, and to practice my english.</p>
+            *The idea of this blog is to share my experience learning computer science and data science, 
+            <br>I like to keep a record of my progress throughout my courses and the new technologies I learn in order to stay motivated. 
+            <br>Enjoy the reading and sorry if you find some grammatical errors in my writing, this is not my first language.
+        </p>
     </div>
 
     <div class="main-container">
         <div class="entries">
-            <p>entry 24/04</p>
+            <p class="entry-date">entry 24/04</p>
             <p>I have a lot to write, Programming Languages part C week 2 and week 3 (CS), and a project that I am doing in c++ for my structured programming class (DS)</p>
             <p>. . . </p>
         </div>
         <div class="entries">
-            <p>entry 22/04</p>
+            <p class="entry-date">entry 22/04</p>
             <p>"Programs are mathematical creatures, their scale and scope limited only by our imaginations"</p>
             <p><a href="https://course.ccs.neu.edu/cs3500f19/lec_intro_notes.html">CS 3500: Object-Oriented Design</a></p>
         </div>
         <div class="entries">
-            <p>entry 18/04</p>
+            <p class="entry-date">entry 18/04</p>
             <p>I have some homework about 2D Arrays in c++ for one of my data science classes, It is my first time coding in this PL</p>
             <p>I would have liked to wait longer until I had reviewed it in one of my CS courses</p>
             <p>
@@ -66,7 +77,7 @@
             </p>
         </div>
         <div class="entries">
-            <p>entry 16/04</p>
+            <p class="entry-date">entry 16/04</p>
             <p>I am trying to understand Double-Dispatch, and here we go, this explanation is helping me to clarify the idea in my mind:</p>
             <p>We could solve a binary operation using a functional programming approach, that is using a method with if and else statements to determine what's the data type of the argument passed in the method</p>
             <p>But instead, we are using am OOP approach: </p>
@@ -77,10 +88,10 @@
                 and this must be solved using a "self" keyword <br>
             </p>
             <p>This is the idea that I started to have in my mind to understand this, I will come back later when I have finished understanding how it works</p>
-            <h4 style="color: aqua;">I wrote my first double dispatch code on my own!!! 12:13 a.m.</h4>
+            <h4 style="color: rgb(60, 0, 255);">I wrote my first double dispatch code on my own!!! 12:13 a.m.</h4>
         </div>
         <div class="entries">
-            <p>entry 12/04</p>
+            <p class="entry-date">entry 12/04</p>
             <p>Hello world, this is my first entry, I just created this blog.</p>
             <p>I will try to have at least one entry every three days, just to update
                 how I am going*, and what subject I already finished. Right now I am studying 
@@ -92,4 +103,5 @@
         </div>
     </div>
 </body>
+<script src="./script.js"></script>
 </html>
