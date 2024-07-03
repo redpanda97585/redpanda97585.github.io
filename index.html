@@ -16,18 +16,31 @@
             /* gap: 20%; */
             justify-content: space-around;
         }
+        .avatar-description{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .side-bar {
             border: solid black 1px;
-            padding: .5%
+            padding: .5%;
         }
         .style-button {
             display: inline-block;
         }
+        .percentage {
+            display: inline;
+        }
+        /* .description > p > a {
+            display: inline;
+            background-color: rebeccapurple;
+        } */
     </style>
 </head>
 <body>
     <div class="content">
-        <h3>Computer Science personalized curriculum</h3>
+        <h3>Computer Science personalized curriculum <div class="ossu percentage">0%</div></h3>
         <ul>
             <li><a href="https://www.coursera.org/learn/programming-languages">Programming Languages A, B, C</a></li>
             <li><a href="https://web.mit.edu/6.031/www/sp21/">6.031</a></li>
@@ -37,7 +50,8 @@
         <div class="avatar-description">
             <div class="description">
                 <p>Computer Science student <a href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a>
-                <br>Data Science student (UVM)</p>
+                <br>Data Science student 
+                <a href="https://uvm.mx/storage/app/media/plan_estudios/licenciaturas-ejecutivas/ingenierias-uvm-online/lxo-ing-ciencia-datos.pdf" target="_blank">(UVM)</a></p>
                 <p><a href="./blog.html" target="_blank">Blog</a></p>
                 <p>Contact:<p>
                 <ul class="contact-links">
