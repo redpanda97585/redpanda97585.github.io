@@ -5,9 +5,12 @@ const CS = 48;
 // let csCompleted = 3;
 // let csTotal = Math.round((( csCompleted / 48) * 100)* 100 )/100;
 
+/**
+ * Mode style, light and dark theme 
+*/
 const bodyElement = document.body;
 const mainContainer = document.querySelector(".main-container");
-const mode = false;
+const mode = false; // Init mode
 
 // csPer.textContent = csTotal.toString() + "%";
 // console.log(csTotal);
