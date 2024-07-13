@@ -23,10 +23,13 @@ styleButton.addEventListener("click", () => {
     if (mode == "darkMode") {
         bodyElement.style.background = "white";
         bodyElement.style.color = "black";
+        mode = "lightMode";
+        console.log(mode);
     } else {
         bodyElement.style.background = "black";
         bodyElement.style.color = "white";
         mode = "darkMode";
+        console.log(mode);
     } 
 });
 
