@@ -1,0 +1,32 @@
+/* General variables. */
+
+/* Colors taken from this page as a reference.  
+https://www.color-hex.com/color-palette/1052202 */
+:root {
+    --dark01: #363333;
+    --dark02: #292e37;
+    --dark03: #232730;
+    --light01: #ece7e0;
+    --light02: #bdbbb6;
+}
+
+/* ... */
+
+/* General styles. */
+body {
+    background-color: white;
+    color: var(--dark01);
+}
+
+/* @import url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+* {
+    font-family: "Comic Neue";
+    font-weight: bolder;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* ... */
+
