@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>atl97853</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on atl97853</description>
+    <title>Posts on atl97853</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on atl97853</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Dec 2024 17:37:42 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing</title>
       <link>http://localhost:1313/posts/testing/</link>
